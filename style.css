@@ -26,5 +26,7 @@ body{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 30px;
-    justify-items: center;
+}
+.counter div{
+    text-align: center;
 }
