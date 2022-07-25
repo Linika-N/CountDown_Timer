@@ -12,20 +12,21 @@
 </head>
 <body>
     <div class="main">
-        <img src="bg.jpeg" alt="Background" class="Background">
-        <div class="title">
-            New Year Countdown
+        <div class="main_items">
+            <h1 class="title">
+                New Year <br> Countdown
+            </h1>
+            <div class="new_year">
+                2023
+            </div>
+            <div class="counter">
+                <div id="days"></div> 
+                <div id="hours"></div>
+                <div id="minutes"></div>
+                <div id="seconds"></div>
+            </div>
+            <button onclick="location.reload()">Reload</button>
         </div>
-        <div class="counter">
-            <div id="days"></div> 
-            <div id="hours"></div>
-            <div id="minutes"></div>
-            <div id="seconds"></div>
-        </div>
-        <div class="new_year">
-            2023
-        </div>
-        <button onclick="location.reload()">Reload</button>
     </div>
     <script src="app.js"></script>
 </body>
